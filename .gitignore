@@ -1,0 +1,20 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.swp
+*.swo
+
+# SQLiteデータベース
+*.sqlite
+*.db
+
+# マイグレーション関連
+migrations/
+*.log
+
+# Flask/Werkzeug 関連のキャッシュ
+instance/
+*.pyc

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>文章を要約する</h1>
+    <form method="POST">
+        <textarea name="text" rows="10" cols="50" placeholder="文章を入力してください">{{ text }}</textarea>
+        <button type="submit">要約する</button>
+    </form>
+    {% if summary %}
+        <h2>要約結果</h2>
+        <p>{{ summary }}</p>
+    {% endif %}
+{% endblock %}
