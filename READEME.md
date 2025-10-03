@@ -12,7 +12,6 @@ Flaskを使ったシンプルなテキスト要約Webアプリケーションで
 - Flask + SQLAlchemy + Flask-Login + Flask-WTF を使用
 - SQLite でユーザー管理
 - モデルの遅延ロードにより起動速度を改善
-- デプロイ対応（AWS予定）
 
 ---
 
@@ -32,10 +31,16 @@ Flaskを使ったシンプルなテキスト要約Webアプリケーションで
 ## 📸 スクリーンショット
 
 - ログイン画面
-(掲載予定)
+![ログイン画面](images/login.png)
+
+- ユーザー登録画面
+![ユーザー登録画面](images/register.png)
 
 - 要約画面
-(掲載予定)
+![要約画面](images/summarize.png)
+
+- 要約結果画面
+![要約結果画面](images/summarized.png)
 
 ---
 
