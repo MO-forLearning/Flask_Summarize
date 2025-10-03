@@ -33,6 +33,13 @@ def load_user(user_id):
 app.register_blueprint(auth_bp)
 app.register_blueprint(summarize_bp)
 
+# エラーページ
+def show_404_page(error):
+  msg = getattr(error, "description", "ページが見つかりません")
+  return render_template('errors/404.html', msg=msg), 404
+
+app.register_error_handler(404, show_404_page)
+
 # ===============================================
 # 実行
 # ===============================================
