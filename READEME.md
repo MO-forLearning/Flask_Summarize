@@ -112,8 +112,7 @@ Flask_Summarize/
 │  └─ errors/
 │     └─ 404.html
 ├─ static/
-│  └─ css/
-│     └─ style.css
+├─ images/
 ├─ requirements.txt
 └─ README.md
 ```
