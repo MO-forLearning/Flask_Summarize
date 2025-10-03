@@ -49,7 +49,7 @@ Flaskを使ったシンプルなテキスト要約Webアプリケーションで
 1. リポジトリをクローン：
 
 ```bash
-git clone https://github.com/yourusername/Flask_Summarize.git
+git clone https://github.com/MO-forLearning/Flask_Summarize
 cd Flask_Summarize
 ```
 
@@ -116,4 +116,5 @@ Flask_Summarize/
 ├─ requirements.txt
 └─ README.md
 ```
+
 
