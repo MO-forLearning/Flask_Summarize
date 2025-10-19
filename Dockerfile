@@ -9,4 +9,8 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["python", "app.py"]
+COPY entrypoint.sh /app/entrypoint.sh
+
+RUN chmod +x /app/entrypoint.sh
+
+ENTRYPOINT ["/app/entrypoint.sh"]
