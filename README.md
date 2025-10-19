@@ -1,7 +1,7 @@
 # Flask Summarize App
 
 ## 📌 概要
-Flaskを使ったシンプルなテキスト要約Webアプリケーションです。Hugging Faceの transformersを利用しています。
+Flaskを使ったシンプルなテキスト要約Webアプリケーションです。Hugging Faceのtransformersを利用しています。
 
 ---
 
@@ -9,8 +9,8 @@ Flaskを使ったシンプルなテキスト要約Webアプリケーションで
 
 - ユーザー認証（ログイン、ログアウト、サインアップ）
 - Hugging Faceの`facebook/bart-large-cnn`を使った文章要約
-- Flask + SQLAlchemy + Flask-Login + Flask-WTF を使用
-- SQLite でユーザー管理
+- Flask + SQLAlchemy + Flask-Login + Flask-WTFを使用
+- SQLiteでユーザー管理
 - モデルの遅延ロードにより起動速度を改善
 
 ---
@@ -49,7 +49,7 @@ Flaskを使ったシンプルなテキスト要約Webアプリケーションで
 1. リポジトリをクローン：
 
 ```bash
-git clone https://github.com/yourusername/Flask_Summarize.git
+git clone
 cd Flask_Summarize
 ```
 
@@ -116,3 +116,6 @@ Flask_Summarize/
 ├─ requirements.txt
 └─ README.md
 ```
+
+
+
