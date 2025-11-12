@@ -1,9 +1,10 @@
 # Flask Summarize App
 
+
 ## 📌 概要
 Flaskを使ったシンプルなテキスト要約Webアプリケーションです。Hugging Faceのtransformersを利用しています。
 
----
+
 
 ## 💻 機能
 
@@ -13,7 +14,7 @@ Flaskを使ったシンプルなテキスト要約Webアプリケーションで
 - SQLiteでユーザー管理
 - モデルの遅延ロードにより起動速度を改善
 
----
+
 
 ## 🛠 技術スタック
 
@@ -26,23 +27,31 @@ Flaskを使ったシンプルなテキスト要約Webアプリケーションで
 - Transformers (要約モデル)
 - SQLite (データベース)
 
----
+
 
 ## 📸 スクリーンショット
 
 - ログイン画面
+
 ![ログイン画面](images/login.png)
+|-------------------------------|
 
 - ユーザー登録画面
+
 ![ユーザー登録画面](images/register.png)
+|-------------------------------|
 
 - 要約画面
+
 ![要約画面](images/summarize.png)
+|-------------------------------|
 
 - 要約結果画面
-![要約結果画面](images/summarized.png)
 
----
+![要約結果画面](images/summarized.png)
+|-------------------------------|
+
+
 
 ## 🚀 セットアップ方法
 
@@ -77,7 +86,6 @@ flask db upgrade
 python app.py
 ```
 
----
 
 ## 📝 使い方
 
@@ -85,7 +93,7 @@ python app.py
 2. `/auth` でログイン
 3. `/summarize` で文章を入力して要約を取得
 
----
+
 
 ## 📂 フォルダ構成
 ```
@@ -116,6 +124,7 @@ Flask_Summarize/
 ├─ requirements.txt
 └─ README.md
 ```
+
 
 
 
